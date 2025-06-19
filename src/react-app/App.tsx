@@ -6,6 +6,8 @@ import viteLogo from "/vite.svg";
 import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
 import honoLogo from "./assets/hono.svg";
 import "./App.css";
+import openaiLogo from "./assets/design/openai/SVGs/OpenAI-black-wordmark.svg"
+import anthropicLogo from "./assets/design/anthropic/Logos/Anthropic logos/Anthropic wordmark/SVG/Anthropic wordmark - Slate.svg"
 
 function App() {
     const [count, setCount] = useState(0);
@@ -36,11 +38,13 @@ function App() {
                         <li>Vultr Serverless</li>
                     </ul>
                 </div>
-                <div>
+                <div >
                     <div>디자인 정보</div>
                     <ul>
-                        <li><a href={"https://openai.com/brand/"}>OpenAI</a></li>
-                        <li><a href={"https://www.anthropic.com/news"}>Anthropic</a></li>
+                        <li><a href={"https://openai.com/brand/"}><img src={openaiLogo} className={"logo"}
+                                                                       alt={"OpenAI logo"}/></a>
+                        </li>
+                        <li><a href={"https://www.anthropic.com/news"}><img src={anthropicLogo} className={"logo"} alt={"Anthropic logo"} /></a></li>
                         <li>Google</li>
                         <li>Huggingface</li>
                         <li>Amazon Bedrock</li>
