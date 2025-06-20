@@ -21,10 +21,19 @@ function App() {
                     <ul>
                         <li>OpenAI</li>
                         <li>Anthropic</li>
-                        <li>Google</li>
+                        <li>Google AI Studio</li>
+                        <li>Google Gemini</li>
                         <li>Huggingface</li>
                         <li>Amazon Bedrock</li>
                         <li>Vultr Serverless</li>
+                        <li>CloudFlare</li>
+                        <li>Cerebras</li>
+                        <li>OpenWebUI</li>
+                        <li>Proxmox</li>
+                        <li>TailwindCSS</li>
+                        <li>Github</li>
+                        <li>N8N</li>
+                        <li>GROK</li>
                     </ul>
                 </div>
                 <div>
@@ -41,10 +50,17 @@ function App() {
                 <div >
                     <div>디자인 정보</div>
                     <ul>
-                        <li><a href={"https://openai.com/brand/"}><img src={openaiLogo} className={"logo"}
+                        <li>
+                            <a target={"_blank"}
+                               rel={"noreferrer nofollower nofollow"}
+                               aria-label={"OpenAI"}
+                               title={"OpenAI"}
+                                href={"https://openai.com/brand/"}
+                            ><img src={openaiLogo}
+                                                                        className={"logo bg-white mx-4 my-2 rounded-4xl"}
                                                                        alt={"OpenAI logo"}/></a>
                         </li>
-                        <li><a href={"https://www.anthropic.com/news"}><img src={anthropicLogo} className={"logo"} alt={"Anthropic logo"} /></a></li>
+                        <li><a href={"https://www.anthropic.com/news"}><img src={anthropicLogo} className={"logo bg-white p-4 rounded-lg"} alt={"Anthropic logo"} /></a></li>
                         <li>Google</li>
                         <li>Huggingface</li>
                         <li>Amazon Bedrock</li>
